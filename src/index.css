@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #fff;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #111;
+  /* color: #fff; */
+}
+form >input{
+  padding: 15px 20px;
+  margin: 20px;
+}
+form button{
+  padding: 12px 100px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.form-container{
+  padding: 50px;
+}
+.form-container form input {
+  color: #111;
+}
+.header{
+  margin: 25px;
+}
+.employeeDash{
+  padding: 40px;
+}
+.header button{
+  padding: 8px 20px;
+}
+.task-lists-numbers{
+  margin-top: 40px;
+}
+.task-lists-numbers>div{
+  padding: 24px 36px;
+}
+.tasklist-cards{
+  margin-top: 40px;
+  padding: 20px 0;
+}
+.task h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.task div button{
+  padding: 4px 8px;
+  border-radius: 10px;
+  margin-top: 17px;
+
+}
+.tasklist-cards>div{
+  padding: 20px;
+}
+.tasklist-card h3{
+  padding: 4px 12px;
+  
+}
+#task-list-cards::-webkit-scrollbar{
+  display: none;
+}
+
+/* admin dashboard */
+.admin-dash{
+  padding: 40px;
+}
+
+.admin-box{
+  padding: 20px;
+  margin-top: 28px;
+}
+/* Task content  */
+.create-task div h3{
+  margin-bottom: 5px;
+}
+.create-task div input{
+  padding: 4px 8px;
+  background: white;
+  color: black;
+}
+.create-task textarea{
+  padding: 4px 8px;
+  background: white;
+  color: black;
+}
+.create-task button{
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.all-task-data h3{
+  color: blue;
+}
+.all-task-data h4{
+  color: red;
+}
+.all-task-data h6{
+  color: rgb(13, 188, 13);
+}
+.all-task-data h1{
+  color: yellow;
+}
+.all-task{
+  padding: 20px;
+  margin-top: 20px;
+}
+.all-task::-webkit-scrollbar{
+  display: none;
+}
+.all-task div{
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
